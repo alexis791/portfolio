@@ -1,0 +1,335 @@
+/*
+    black: 1F1F1F
+    blue: 2291C0
+    white: FFFFFF
+*/
+h1,h2,h3
+{
+    margin: 0;
+}
+
+.shadow-button, input, textarea
+{
+    -webkit-box-shadow: 2px 4px 4px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 2px 4px 4px 0px rgba(0,0,0,0.25);
+    box-shadow: 2px 4px 4px 0px rgba(0,0,0,0.25);
+}
+
+.shadow-text
+{
+    -webkit-text-shadow: 2px 4px 4px 0px rgba(0,0,0,0.25);
+    -moz-text-shadow: 2px 4px 4px 0px rgba(0,0,0,0.25);
+    text-shadow: 1px 2px 4px rgba(0,0,0,0.25);
+}
+
+.projects article
+{
+    -webkit-box-shadow: 2px 4px 4px 0px rgba(0,0,0,0.25);
+    -moz-box-shadow: 2px 4px 4px 0px rgba(0,0,0,0.25);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.25);
+}
+
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu Condensed', sans-serif;
+}
+
+header
+{
+    height: 90px;
+    background-color: #1F1F1F;
+    display: flex;
+    justify-content: flex-end;
+    
+}
+
+header nav
+{
+    height: inherit;
+    width: 100%;
+}
+
+header nav ul
+{
+    margin:0;
+    padding: 0;
+    height: inherit;
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav ul li
+{
+    height: inherit;
+}
+
+header nav ul li a
+{   
+    height: inherit;
+    text-decoration: none;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 0 30px;
+    font-size: 15pt;
+}
+
+header nav ul li a:hover
+{   
+    background-color: #2291C0;
+}
+
+header nav ul li a:focus
+{   
+    border-bottom: 2px solid #2291C0;
+}
+
+.home
+{
+    height: 800px;
+    /* background-image: url('../images/background.png'); */
+    background-color: #2291C0;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.home h1
+{
+    font-size: 54pt;
+    color: white;
+    font-weight: normal;
+    margin: 10px 0 0 0;
+}
+
+.home h2
+{
+    color: white;
+    font-family: 'Ubuntu Mono', monospace;
+    font-size: 30pt;
+    font-weight: normal;
+    margin: 0 0 40px 0;
+    padding-top: 20px;
+}
+
+.home a{
+    color: #1F1F1F;
+    background-color: white;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 15pt;
+    margin: 50px 0;
+    padding:10px 20px;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    text-decoration: none;
+}
+
+.about , .portfolio, .contact
+{
+    height: 900px;
+    /* background-image: url('../images/background.png'); */
+    background-color: white;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+}
+
+
+.about-container
+{
+    display: flex;
+    align-items: center;
+    justify-content: center ;
+    box-sizing: border-box;
+    margin: 50px 0;
+}
+
+
+.about-container p
+{
+    font-size: 24pt;
+    width: 650px;
+    margin: 80px;
+}
+
+.about-container img
+{
+    margin: 50px;
+}
+
+.projects
+{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.projects article
+{
+    height:600px ;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.project-title
+{
+    font-size: 24pt;
+    font-weight: normal;
+}
+
+
+.project-content
+{
+    height: 50%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.project-details 
+{
+   height: 50%;
+   background-color: #2291C0;
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+.project-details p
+{
+    font-size: 14pt;
+    font-weight: 100;
+    color: white;
+    padding: 20px;
+    margin: 0;
+}
+
+button
+{
+    width: 100px;
+    height: 40px;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    font-size: 12pt;
+    color: white;
+    background-color: #1F1F1F;
+    margin: 10px;
+}
+
+.contact
+{
+    color: white;
+    background-color: #2291C0;
+}
+
+.contact h1,.about h2, .portfolio h2
+{
+    display: flex;
+    justify-content: center;
+    font-size: 30pt;
+    padding: 50px 0px;
+}
+
+.contact-content{
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 15pt;
+    /* height: inherit; */
+}
+
+.contact-form
+{
+    height: 100%;
+}
+
+.contact-form form{
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-form form label
+{
+    margin: 20px 0;
+}
+
+img
+{
+    border-radius: 100%;
+}
+
+.contact-content ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    height: inherit;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact-content form :child
+{
+    margin: 20px 0;
+}
+
+.contact-form button{
+    margin: 50px 0;
+    width: 200px;
+    background-color: #555859;
+}
+
+.contact-content ul li
+{
+    margin: 10px 20px;
+}
+
+input{
+    width: 500px;
+    height: 40px;
+    font-size: 12pt;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    padding: 0 10px;
+}
+
+textarea
+{
+    font-size: 12pt;
+    font-family: 'Ubuntu Condensed', sans-serif;
+    padding: 5px 10px;
+    resize: vertical;
+    min-height: 200px;
+}
+
+footer{
+    height: 70px;
+    text-align: center;
+}
+
+footer h3{
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: normal;
+}
